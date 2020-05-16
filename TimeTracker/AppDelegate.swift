@@ -126,7 +126,7 @@ extension AppDelegate {
        
         startDate = Date()
         timer = Timer.scheduledTimer(
-            timeInterval: 5.0,
+            timeInterval: 1.0,
             target: self,
             selector: #selector(onTimerUpdate),
             userInfo: nil,
