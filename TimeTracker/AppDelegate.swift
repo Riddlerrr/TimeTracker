@@ -142,8 +142,8 @@ extension AppDelegate {
         timer = nil
         
         saveSeconds()
-        updateMenuTime()
         startDate = nil
+        updateMenuTime()
         updateMenuIcon()
         print("Timer has stoped")
     }
