@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A5219E78246E6FE600790317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5219E77246E6FE600790317 /* AppDelegate.swift */; };
-		A5219E7A246E6FE600790317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5219E79246E6FE600790317 /* ViewController.swift */; };
 		A5219E7C246E6FE700790317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5219E7B246E6FE700790317 /* Assets.xcassets */; };
 		A5219E7F246E6FE700790317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5219E7D246E6FE700790317 /* Main.storyboard */; };
-		A5219E8B246E6FE700790317 /* TimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5219E8A246E6FE700790317 /* TimeTrackerTests.swift */; };
-		A5219E96246E6FE700790317 /* TimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5219E95246E6FE700790317 /* TimeTrackerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +31,13 @@
 
 /* Begin PBXFileReference section */
 		A5219E74246E6FE600790317 /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5219E77246E6FE600790317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5219E79246E6FE600790317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5219E77246E6FE600790317 /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5219E7B246E6FE700790317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5219E7E246E6FE700790317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5219E80246E6FE700790317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5219E81246E6FE700790317 /* TimeTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeTracker.entitlements; sourceTree = "<group>"; };
 		A5219E86246E6FE700790317 /* TimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5219E8A246E6FE700790317 /* TimeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerTests.swift; sourceTree = "<group>"; };
-		A5219E8C246E6FE700790317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5219E91246E6FE700790317 /* TimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5219E95246E6FE700790317 /* TimeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerUITests.swift; sourceTree = "<group>"; };
-		A5219E97246E6FE700790317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				A5219E76246E6FE600790317 /* TimeTracker */,
-				A5219E89246E6FE700790317 /* TimeTrackerTests */,
-				A5219E94246E6FE700790317 /* TimeTrackerUITests */,
 				A5219E75246E6FE600790317 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,31 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				A5219E77246E6FE600790317 /* AppDelegate.swift */,
-				A5219E79246E6FE600790317 /* ViewController.swift */,
 				A5219E7B246E6FE700790317 /* Assets.xcassets */,
 				A5219E7D246E6FE700790317 /* Main.storyboard */,
 				A5219E80246E6FE700790317 /* Info.plist */,
 				A5219E81246E6FE700790317 /* TimeTracker.entitlements */,
 			);
 			path = TimeTracker;
-			sourceTree = "<group>";
-		};
-		A5219E89246E6FE700790317 /* TimeTrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				A5219E8A246E6FE700790317 /* TimeTrackerTests.swift */,
-				A5219E8C246E6FE700790317 /* Info.plist */,
-			);
-			path = TimeTrackerTests;
-			sourceTree = "<group>";
-		};
-		A5219E94246E6FE700790317 /* TimeTrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A5219E95246E6FE700790317 /* TimeTrackerUITests.swift */,
-				A5219E97246E6FE700790317 /* Info.plist */,
-			);
-			path = TimeTrackerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +225,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5219E7A246E6FE600790317 /* ViewController.swift in Sources */,
 				A5219E78246E6FE600790317 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5219E8B246E6FE700790317 /* TimeTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5219E96246E6FE700790317 /* TimeTrackerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +395,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sergey-andronov.TimeTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -445,6 +414,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sergey-andronov.TimeTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
