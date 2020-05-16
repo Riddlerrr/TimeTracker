@@ -162,6 +162,8 @@ extension AppDelegate {
         
         savedSecondsPassed = TimeInterval(0)
         startDate = nil
+        
+        saveSeconds()
         updateMenuTime()
         print("Timer is reseted")
     }
