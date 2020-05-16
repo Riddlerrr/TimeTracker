@@ -25,14 +25,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarItem.button?.imagePosition = .imageLeft
         updateMenuIcon()
         updateMenuTime()
-        statusBarItem.button?.action = #selector(self.statusBarButtonClicked(_:))
+        statusBarItem.button?.action = #selector(statusBarButtonClicked(_:))
         statusBarItem.button?.sendAction(on: [.leftMouseUp, .rightMouseUp])
         
         statusBarMenu = NSMenu(title: "Status Bar Menu")
         statusBarMenu.delegate = self
         statusBarMenu.addItem(
            withTitle: "Reset timer",
-           action: #selector(self.resetTimer),
+           action: #selector(resetTimer),
            keyEquivalent: "r")
         statusBarMenu.addItem(
            withTitle: "Quit",
@@ -170,7 +170,7 @@ extension AppDelegate {
     
     @objc func onTimerUpdate() {
         updateMenuTime()
-        print("Tick-tack! seconds: ", toHMS(seconds: seconds()))
+        print("Tick! seconds: ", toHMS(seconds: seconds()))
     }
     
     private func isTimerRunning() -> Bool {
