@@ -5,17 +5,20 @@ I didn't find easy solution so here it is.
 It has only one option: tracking time.
 
 It looks like this (currently stoped):
-![](docs/screeshots/general_view.png)
+
+![](doc/screenshots/general_view.png)
 
 It shows hours and minutes.
 
 Timer is active:
-![](docs/screeshots/active.png)
+
+![](doc/screenshots/active.png)
 
 Left click for start/pause the timer
 
 Right click to show menu where you can reset the timer or quit the app:
-![](docs/screeshots/active.png)
+
+![](doc/screenshots/menu.png)
 
 # Installation
 
